@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Medick's</title>
+        <link rel="icon" href="images/logo transparente.png" />
+    </head>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <header class="header">
+        <a href="index.html">
+            <figure class="logo">
+                <img src="images/Logook-02.png" alt="logo de header" height="60">
+            </figure>
+        </a>
+        <nav class="topnav">
+            <a href="ultras.html">Ultrasonido</a>
+            <a href="esclerot.html">Escleroterapia Estética</a>
+            <a class="active" href="consultagral.html">Consulta General</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+<body>
+    <p class="agendee"><b>Agende una cita con nosotros y con gusto le atenderemos, teniendo los siguientes servicios a su disposición:</b></p>
+    <img class="mySlides" src="images/fotos_pestaña_consultorio/consulta_gral.jpg" alt="consulta_gral">
+    <img class="mySlides" src="images/fotos_pestaña_consultorio/control_embarazo_ultra4D.jpg" alt="control_embarazo_ultra4D">
+    <img class="mySlides" src="images/fotos_pestaña_consultorio/diabetes.jpg" alt="diabetes">
+    <img class="mySlides" src="images/fotos_pestaña_consultorio/suturas.jpg" alt="suturas">
+    <img class="mySlides" src="images/fotos_pestaña_consultorio/exeresis.jpg" alt="exeresis">
+    <section style="height: 25px;"></section>
+    <div class="row2">
+        <div class="columna2">
+            <ul class="important-stuff">
+                <li>Consulta médica general para niños y adultos.</li>
+                <li>Escleroterapia estética (várices) con valoración con ultrasonido.</li>
+                <li>Control de embarazo con ultrasonido 4D y 5D.</li>
+                <li>Control de diabetes e hipertensión.</li>
+                <li>Heridas de pequeña cuantia, suturas.</li>
+            </ul>
+        </div>
+        <div class="columna2">
+            <ul class="important-stuff">
+                <li>Exéresis o retiro de lipomas, lunares, entre otros.</li>
+                <li>Infiltraciones guiadas con ultrasonido.</li>
+                <li>Sutura de herida menor en cara y cuello.</li>
+                <li>Sutura inmediata de pequeñas heridas.</li>
+                <li>Certificados médicos para ingreso escolar.</li>
+            </ul>
+        </div>
+    </div>
+    <section style="height: 5px;"></section>
+    <section style="height: 5px;"></section>
+    <button type="button" class="collaps2"><i>Otros</i></button><div class="contennn">
+        <div class="row">
+            <div class="columna3">
+                <ul style="list-style-type: circle;">
+                    <li>Nebulizaciones</li>
+                    <li>Toma de glucosa en sangre y presión arterial</li>
+                    <li>Lavado de oídos</li>
+                    <li>Curaciones</li>
+                </ul>
+            </div>
+            <div class="columna4">
+                <ul style="list-style-type: circle;">
+                    <li>Retiro de puntos</li>
+                    <li>Extracción de uña enterrada</li>
+                    <li>Colocación y retiro de sondas</li>
+                    <li>Aplicación de inyecciones</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="Horarios">
+        <h2>Horarios de atención</h2>
+        <table>
+            <tr>
+                <td>Lunes, Miércoles y Viernes</td>
+                <td>De 9:00 a 13:00 y de 16:00 a 19:00 hrs.</td>
+            </tr>
+            <tr>
+                <td>Martes y Jueves</td>
+                <td>De 11:00 a 13:00 y de 16:00 a 21:00 hrs.</td>
+            </tr>
+            <tr>
+                <td>Sábados</td>
+                <td>De 11:00 a 15:00 hrs.</td>
+            </tr>
+            <tr>
+                <td>Domingos</td>
+                <td>Previa cita</td>
+            </tr>
+        </table>
+    </section>
+    <script>
+        var collaps2 = document.getElementsByClassName("collaps2");
+        var i;
+        for (i=0;i<collaps2.length;i++){
+            collaps2[i].addEventListener("click", function(){
+                this.classList.toggle("activoe");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block"){
+                    content.style.display = "none";
+                }else{
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <section style="height: 25px;"></section>
+</body>
+<script>
+     var slideIndex = 0;
+     carousel();
+     function carousel(){
+         var i;
+         var x = document.getElementsByClassName("mySlides");
+         for (i = 0; i < x.length; i++){
+             x[i].style.display = "none";
+         }
+         slideIndex++;
+         if (slideIndex>x.length) {slideIndex = 1}
+         x[slideIndex-1].style.display = "block";
+         setTimeout(carousel, 3500);
+     }   
+</script>
+    <footer class="footer">
+        <p>Desarrollado por: <a class="enlace_footer" href="https://www.facebook.com/Luis.Riverafls"><strong> luis.riverafls</strong></a></p>
+        <figure class="logos_wa_gmail">
+            <a href="https://fb.com/book/109263043957293" data-elementor-open-lightbox target="_blank"><img src="images/fb-logo.png" alt="fb_image" height="30px" style="padding-right: 15px;">
+            </a>        
+            <a href="https://wa.me/527751137473" data-elementor-open-lightbox target="_blank"><img src="images/whatsapp.png" alt="whatsapp_image" height="30px">
+            </a>
+        </figure>
+            </footer>
+        

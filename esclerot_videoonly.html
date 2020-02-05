@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Medick's</title>
+        <link rel="icon" href="images/logo transparente.png" />
+    </head>
+    <link rel="stylesheet" href="css/estilos.css" />
+<body>
+            <section class="videO">
+            <video autoplay muted loop id="video-maqueta">
+                <source src="images/Video_maqueta.mp4" type="video/mp4">
+                </video>
+                <div class="contenido_video">
+                    <h1>Escleroterapia Estética</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quo magnam quia recusandae voluptatum sint neque cupiditate nihil provident, ut doloribus quidem, <br> numquam voluptas temporibus ab quas error alias aut incidunt.</p>
+                    <button id="boton_video" onclick="myFunction()">Pausar</button>
+                </div>
+            </section>
+                <script>
+            var video = document.getElementById("video-maqueta");
+            var button = document.getElementById("boton_video");
+            function myFunction(){
+                if (video.paused){
+                    video.play();
+                    button.innerHTML = "Pausar";
+            }   else{
+                video.pause();
+                button.innerHTML = "Reproducir";
+            }
+            }
+            </script>
+</body>

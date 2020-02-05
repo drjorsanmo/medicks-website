@@ -1,0 +1,701 @@
+.hero{
+height: 340px;
+padding-left: 20px;
+text-align: left;
+background-image: url(/images/PICT1022.JPG);
+background-position-x: right;
+background-size: 500px 300px;
+background-repeat: no-repeat;
+display: flex;
+}
+
+.texto-hero{
+    text-align: left;
+}
+
+.imagen-hero{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background-color: #59c5cb;
+    background-size: 950px 132px;
+    height: 60px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: contents;
+}
+
+.header a:hover{
+    box-shadow: rgba(40, 40, 40, 0.2);
+}
+
+.menu{
+    height: inherit;
+}
+
+/* -----aquí va el hover para las listas------- */
+
+.topnav{
+    background-color: #59c5cb;
+    overflow: hidden;
+    transition-duration: 0.4s;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: #59c5cb;
+    height: 60px;
+}
+
+.topnav a.active {
+    background-color: #dddddd;
+    color: black;
+    height: 60px;
+}
+
+/* -----aquí termina hover para las listas------- */
+
+
+/* aquí intentaré ponerle fuentes tipográficas únicamente
+a los encabezados de cada sección (Próxima Nova)*/
+/*colores hexadecimales del logotipo:
+azul poco obscuro #4b68b1
+verde agua #59c5cb
+naranja #f89938
+color de texto body: color: #505050;
+------------------------------Esto es del body*/
+
+html,body {
+    background: rgb(240, 240, 240); 
+    padding: 0px;
+    margin: 0px;
+} 
+
+.headermed{
+    background-color: #59c5cb;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 150px;
+    border-bottom: #f0f0f0 solid;
+}
+
+.boton_regresar{
+    color: #505050;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: #505050;
+    background-color: inherit;
+}
+.boton_regresar:hover{
+    color: white;
+    background-color: #505050;
+    transition-duration: 0.4s;
+}
+
+.texto-ultras-index{
+    text-align: justify;
+    width: 70%;
+}
+
+h1,
+h2 {
+    font-family: 'Helvetica';
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Proxima Nova';
+    text-align: justify;
+    color: #505050;
+    padding: 0px;
+}
+
+/*---------------------- Aqui va todo para la pestaña de ultrasonido ------------------------------------*/
+
+.ultrasonido-title{
+    text-decoration: none;
+}
+
+.ultra-title{
+    text-decoration: none;
+}
+
+.escleroterapia-title{
+    text-decoration: none;
+}
+
+.consulta-title{
+    text-decoration: none;
+}
+
+.ultrasonido-details {
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row_ultras{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo_columna1{
+    background-color: #dddddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-right: 25px;
+    border-radius: 5px;
+    width: 39%;
+}
+
+.fondo_columna2{
+    background-color: #dddddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 39%;
+}
+
+.column_obstetrico{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.boton-ultra-obstetrico{
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid #4b68b1;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    background-color: inherit;
+    color: #4b68b1;
+    border-radius: 10px;
+}
+
+.boton-ultra-obstetrico:hover{
+    background-color: #4b68b1;
+    color: white;
+}
+
+.boton-ultra-general{
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid #4b68b1;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    background-color: inherit;
+    color: #4b68b1;
+    border-radius: 10px; 
+}
+
+.boton-ultra-general:hover{
+    background-color: #4b68b1;
+    color: white;
+}
+
+.texto-ultra-diagnostico{
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton-ultra1{
+    text-align: center;
+}
+
+.boton-ultra2{
+    text-align: center;
+    padding-top: 78px;
+}
+
+/*---------------------- Aqui termina todo para la pestaña de ultrasonido ------------------------------------*/
+/*---------------------- Aqui va todo para la pestaña de ultrasonido OBSTÉTRICO ------------------------------------*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calendario{
+    margin: 4px;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calendario:hover{
+    background-color: #717171;
+    transition-duration: 0.4s;
+}
+
+.foto-bebe img{
+    border-radius: 50%;
+    width: 220px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.semana-semana{
+    text-align: justify;
+    margin: 0 100px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-left: 20px;   
+}
+
+.semana-semana h2{
+    padding-left: 100px;
+}
+
+.ptitulo{
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.ptexto{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.sub-defoto{
+    text-align: center;
+}
+
+/*---------------------- Aqui termina todo para la pestaña de ultrasonido OBSTÉTRICO ------------------------------------*/
+/*---------------------- Aqui va todo para la pestaña de ultrasonido DIAGNÓSTICO ------------------------------------*/
+
+.collapsible{
+    background-color: rgb(230, 230, 230);
+    color: #505050;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    text-align: justify;
+    font-size: 15px;
+    outline: none; 
+    border-radius: 3px;  
+}
+
+.contenido-collapsible{
+    display: none;
+    overflow: hidden;
+    padding: 0 18px;
+    background-color: #e6e6e6;
+}
+
+.activee, .collapsible:hover{
+    background-color: #ccc;
+    transition-duration: 0.4s;
+}
+
+.fila{
+    display: flex;
+    margin: 0 100px;
+}
+
+.columna-ud{
+    flex: 50%;
+}
+
+.Ult-diag-titulo{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Ult-diag-texto{
+    text-align: justify;
+    font-size: 18px;
+    margin: 0 100px;
+}
+
+/*---------------------- Aqui termina todo para la pestaña de ultrasonido DIAGNÓSTICO ------------------------------------*/
+/*---------------------- Aqui va todo para la pestaña de escleroterapia ------------------------------------*/
+
+.escleroterapia-details {
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#video-maqueta{
+    position: fixed;
+    min-width: 50%;
+    min-height: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.contenido_video{
+position: fixed;
+bottom: 0%;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+padding: 20px;
+border-radius: 10px;
+width: 100%;
+}
+
+.cabecera_esc{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.img_esc_head{
+    display: flex;
+    margin-left: 110px;
+    padding-top: 16px;
+}
+
+.row3{
+    display: flex;
+    margin-left: inherit;
+    padding-left: 30px;
+}
+
+.sintomas_varices{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.textob{
+    font-size: 18px;
+}
+
+.textoc{
+    text-decoration: none;
+}
+
+.piernas_var{
+    background-color: #4b68b1;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#boton_video{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boton_video:hover{
+    background: #000000;
+    color: #ddd;
+}
+
+.videO{
+    width: 50%;
+}
+
+/*---------------------- Aqui termina todo para la pestaña de escleroterapia ------------------------------------*/
+
+/*---------------------- Aqui va todo para la pestaña de consulta general ------------------------------------*/
+
+.consulta-details {
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-consulta{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+.slideshow-container{
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+.mySlides{
+display: none;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+}
+
+.agendee{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.important-stuff{
+    list-style-type: disc;
+}
+
+.row2{
+    display: -webkit-inline-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 145px;
+}
+
+.contennn{
+display: none;
+overflow: hidden;
+background-color: #e6e6e6;
+margin-left: 168px;
+width: 940px;
+}
+
+.columna3{
+    font-size: 15px;
+}
+.columna4{
+    font-size: 15px;
+    margin-left: 182px;
+}
+
+.activoe, .collaps2:hover{
+    background-color: #a7a7a7;
+    transition-duration: 0.4s;
+}
+
+.collaps2{
+   color: #505050;
+   cursor: pointer;
+   padding: 7px;
+   border: none;
+   text-align: left;
+   font-size: 16px;
+   border-radius: 3px;
+   margin-left: 168px;
+   background-color: #a7a7a7; 
+}
+
+.columna2{
+    display: flex;
+    font-size: 18px;
+}
+
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+table, td{
+    border: 1px solid #505050;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 15px;
+}
+
+.Horarios{
+    width: 74%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*---------------------- Aqui va todo para la pestaña de consulta general ------------------------------------*/
+
+.ultrasonido{
+    margin: 10px 10px;
+}
+
+.columna_imagen{
+    flex: 20%;
+}
+
+.columna_imagen img{
+    border-radius: 50%;
+}
+
+.footer{
+    display: flex;
+    background-image: linear-gradient(to left, rgb(88,197,203), rgb(223,246,240));
+    padding-left: 40px;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logos_wa_gmail{
+    display: flex;
+    padding-right: 20px;
+    border: hidden;
+}
+
+
+.enlace_footer{
+    text-decoration: double;
+    color: inherit;
+}
+
+/*--------------------------Estilos para contacto------------------------*/
+/* padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: table-caption;
+border-radius: 10px;
+-------------------------Esto es para contacto nada más
+*/
+
+.boton_whats{
+text-align: center;
+text-decoration: none;
+}
+
+.texto_whatsapp{
+    text-align: center;
+    border: 2px solid #4caf50;
+    background-color: inherit;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #4caf50;
+    transition-duration: 0.4s;
+}
+
+.texto_whatsapp:hover{
+    background-color: #4caf50;
+    color: white;
+}
+
+.container_contacto{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formulario{
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.elemento-requerido{
+    color: red;
+    font-weight: 400px;
+}
+
+.row{
+    display: flex;
+}
+
+.columna{
+    flex: 50%;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #f89938;
+    color: white;
+    font-size: 13px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #e0862c;
+}
+
+.num_tel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0px 300px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: solid;
+}
+
+/* Aquí terminan estilos de sección de contacto*/ 
